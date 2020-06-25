@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c3b87437d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- Start Navigation  -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand"><img src="images/t.png" alt="" width="30%" height="20vh"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto px-4">
+                <li class="navbar-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#skills" class="nav-link">Progress</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#project" class="nav-link">projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- End Navigation  -->
+
+    <!-- Start home section  -->
+
+    <section class=" block w-full lg:flex-no-wrap" id="home">
+        <div class=" lg:w-100 h-screen ">
+            <div class="bg-cover bg-center h-full w-full flex justify-center items-center lg:justify-center 
+            lg:items-center" style='background-image: url("images/h.jpg")'>
+                <div>
+                    <h1 class="font-bold text-4xl font-mono uppercase text-center text-gray-500">Hi! I am Bushra Ishtiaq
+                    </h1>
+                    <p class="text-xl italic text-center text-gray-500">
+                        A Front-End Web Developer
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End home section  -->
+
+    <!-- start about me section  -->
+
+    <section class=" items-center bg-dark" id="about">
+        <!-- <h1 class="text-black font-Georgia text-center p-8 border-b-4 w-32 border-gray-600">About Me</h1> -->
+        <div class="lg:flex lg: flex-row">
+
+            <div class=" text-indigo-700">
+                <img class="rounded-full" src="images/4.jpg" alt="My pic">
+            </div>
+            <div>
+                <h1 class="text-black text-center p-2">About Me</h1>
+
+                <p class="text-center text-gray-500 lg:mt-24 text-xl">
+                    Hello, I am Bushra Ishtiaq, <br>
+                    Currently studying Web-Developmental Course <br>
+                    conducted by CIRCLE (Tech Karo). I am a beginner in web-development <br>
+                    with a little experienc
+                    in HTML/CSS,CSS Frame work & SAAS <br>
+                    I am good in respinsive design.I was a member of tiny web-projects, <br>
+                    Also trying to learn JavaScript and React. <br>
+                    Now I am good only in HTML/CSS, but I am sure, that it is temporaily. &#128522; <br>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- End about me section  -->
+
+    <!-- start skill section  -->
+
+    <section class="bg-dark mt-2" id="skills">
+
+        <h1 class="text-center text-gray-700 border-b-4 border-gray-500 p-2">My Progress</h1>
+        <section class="skills items-center">
+            <h4 class="mt-12  text-gray-700">HTML SKILL</h4>
+            <div class="progress2 ">
+                <div class="progress-value2" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">90%
+                </div>
+            </div>
+        </section>
+
+        <section class="skills items-center">
+            <h4 class="mt-12  text-gray-700">CSS SKILL</h4>
+            <div class="progress3">
+                <div class="progress-value3" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">80%
+                </div>
+            </div>
+        </section>
+
+        <section class="skills items-center">
+            <h4 class="mt-12  text-gray-700">FRAMEWORK SKILL</h4>
+
+            <div class="progress4 mb-16">
+
+                <div class="progress-value4" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">55%
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- End skill section  -->
+
+    <!-- start projects section  -->
+    <section id="project">
+        <h2 class="project-heading border-b-4 border-gray-500 p-2">Here's are some of my projects</h2>
+
+        <div class="container">
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/3.png" alt="" width="300px" height="300px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>Kitchen Website</h1>
+                        <p>This is my Kitchen & Banquet Website. This website made by CSS Framework (Tailwind).
+                            & It is mobile friendly website.
+                        </p>
+                    </div>
+                    <a href="https://bushra-ishtiaq.github.io/kitchen-website/" target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/5.jpg" alt="" width="300px" height="400px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>Animated Name</h1>
+                        <p>This is Animated name by the help of CSS animation.</p>
+                    </div>
+                    <a href="https://bushra-ishtiaq.github.io/animated-name/." target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/7.jpg" alt="" width="300px" height="400px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>Circle Website</h1>
+                        <p>This is my circle Tech Karo website. It is a class based project.
+                            & It is responsive website.
+                        </p>
+                    </div>
+                    <a href=" https://bushra-ishtiaq.github.io/circle-website/" target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/8.png" alt="" width="300px" height="600px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>Loaders</h1>
+                        <p>In this project, there are different loaders which are made by the help
+                            of CSS animation property.
+                        </p>
+                    </div>
+                    <a href="https://bushra-ishtiaq.github.io/css-loaders/." target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/9.png" alt="" width="300px" height="400px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>JavaScript</h1>
+                        <p>This project based on JavaScript. A little use of JavaScript in
+                            this project.
+                        </p>
+                    </div>
+                    <a href="https://bushra-ishtiaq.github.io/add-HTML-JS/." target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbox">
+                    <img src="images/10.png" alt="" width="300px" height="400px">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h1>Combinator</h1>
+                        <p>In this projetc, use combinators to complete this project. In short,
+                            in this project practice of combinators.
+                        </p>
+                    </div>
+                    <a href="https://bushra-ishtiaq.github.io/combinator-challenge/." target="_blank" class="btn">View
+                        Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="flex justify-center items-center">
+        <button class="bg-dark text-gray-500 p-4 mb-4"><a class="text-gray-500 hover:text-gray-500"
+                href="https://github.com/Bushra-Ishtiaq" target="_blank">
+                View all projects</a>
+        </button>
+    </div>
+
+    <!-- End projects section  -->
+
+    <!-- start footer section  -->
+    <section class="bg-dark" id="contact">
+        <h1 class="text-center border-b-4 border-gray-500 text-gray-500 p-2">Let's Work Together </h1>
+        <div class="p-4 flex flex-row justify-between">
+            <div>
+                <h3 class="text-light">Location</h3>
+                <div class="flex flex-row text-gray-500 mt-4">
+                    <i class="fas fa-map-marker-alt text-2xl"></i>
+                    <p class="ml-2">Somewhere in karachi, Pakistan</p>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-light">Contact</h3>
+                <div class="flex flex-row text-gray-500 mt-4">
+                    <i class="fas fa-envelope text-2xl"></i>
+                    <p class="ml-2">bushraishtiaq50@gmail.com </p>
+                </div>
+                <div class="flex flex-row text-gray-500">
+                    <i class="fas fa-mobile-alt text-2xl"></i>
+                    <p class="ml-2">0341-7608763 </p>
+                </div>
+                <div class="flex flex-row text-gray-500">
+                    <a href="" class="text-gray-500"><i class="fab fa-skype text-2xl"></i></a>
+                    <p class="ml-2">Bushra Ishtiaq</p>
+                </div>
+
+            </div>
+
+            <div class="">
+                <h3 class="text-light">Follow</h3>
+                <div class="flex flex-row text-gray-500 mt-4">
+                    <a href="https://github.com/Bushra-Ishtiaq" target="_blank" class="text-gray-500"><i
+                            class="fab fa-github-square text-2xl"></i></a>
+                    <p class="ml-2">Githup</p>
+                </div>
+                <div class="flex flex-row text-gray-500">
+                    <a href="https://twitter.com/BushraIshtiaq1" target="_blank" class="text-gray-500"><i
+                            class="fab fa-twitter-square text-2xl"></i></a>
+                    <p class="ml-2">Twitter</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between bg-black">
+            <P class="text-gray-500 mt-4">** All the details given are the real </P>
+            <p class="text-gray-500 mt-4">Created By BUSHRA ISHTIAQ </p>
+        </div>
+
+    </section>
+
+    <!-- End footer section  -->
+
+
+
+
+    <!-- Script Source Files  -->
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Script Source Files End -->
+
+</body>
+
+</html>
